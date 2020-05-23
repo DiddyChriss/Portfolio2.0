@@ -1,10 +1,184 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+  <!-- Preloader-->  <!-- Home site start -->
+  <div class="preloader">
+    <div class="preloader-block">
+      <div class="preloader-icon"><span class="loading-dot loading-dot-1"></span>
+        <span class="loading-dot loading-dot-2"></span><span class="loading-dot loading-dot-3"></span></div>
+    </div>
+  </div>
+  <div id="overlay-effect"></div>
+  <!-- Navbar-->
+  <nav class="navbar-expand-md navbar fixed-top" id="navbar"><a class="navbar-brand" data-scroll="" href="/">
+      <!-- Navbar Logo-->
+      <img class="img-fluid" src="{% static 'img/logoDW.png' %}" alt="Logo"></a>
+    <span class="navbar-menu ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button">
+      <span class="btn-line"></span></span>
+    <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
+      <!-- Navbar menu-->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="/projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="/skils">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+<!-- end nav -->
+
+
+
+
+
+
+
+
+
+
+
+   <div class="lightbox-wrapper" id="about" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Get to know me</p>
+                  <h2 class="section-title">About Me</h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Info section-->
+            <div class="info-section single-section">
+              <div class="row align-items-center">
+                <!-- Picture part-->
+                <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail" src="{% static 'img/info-img.jpg' %}" alt="About Picture"></div>
+                <!-- Content part-->
+                <div class="col-12 col-lg-7 info-content">
+                  <div class="content-block">
+                    <h2 class="content-subtitle">Who am i?</h2>
+                    <h6 class="content-title">I'm Emma Smith, a visual UX/UI Designer and Web Developer</h6>
+                    <div class="content-description">
+                      <p>I am a freelancer based in the United Kingdom and i have been building noteworthy UX/UI designs and websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
+                    </div>
+                    <address class="content-info">
+                      <div class="row">
+                        <div class="col-12 col-md-6 single-info"><span>Name:</span>
+                          <p>Emma Smith</p>
+                        </div>
+                        <div class="col-12 col-md-6 single-info"><span>Email:</span>
+                          <p><a href="mailto:emma@example.com">emma@example.com</a></p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-md-6 single-info"><span>Age:</span>
+                          <p>21</p>
+                        </div>
+                        <div class="col-12 col-md-6 single-info"><span>From:</span>
+                          <p>Liverpool, UK</p>
+                        </div>
+                      </div>
+                    </address>
+                    <div class="d-block d-sm-flex align-items-center"><a class="btn content-download button-main button-scheme" href="#0" role="button">Download CV</a>
+                      <ul class="list-unstyled list-inline content-follow">
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-github"></i></a></li>
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-facebook"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Services section-->
+            <div class="services-section single-section">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <p class="section-description">Services i offer to my clients</p>
+                    <h2 class="section-title">My Services</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-logo-css3"></i>
+                    <h6 class="service-title">Design Trends</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-md-images"></i>
+                    <h6 class="service-title">PSD Design</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-logo-ionic"></i>
+                    <h6 class="service-title">Customer Support</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service mb-lg-0"><i class="icon service-icon ion-logo-wordpress"></i>
+                    <h6 class="service-title">Web Development</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service mb-md-0"><i class="icon service-icon ion-md-move"></i>
+                    <h6 class="service-title">Fully Responsive</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service mb-0"><i class="icon service-icon ion-ios-rocket"></i>
+                    <h6 class="service-title">Branding</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

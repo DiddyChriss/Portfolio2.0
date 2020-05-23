@@ -8,10 +8,10 @@ from django.conf import settings
 def home(request):
     return render(request, 'index.html', {})    #create home view
 
-
-def about(request):
-    return render(request, 'about.html', {})   #create about view
-
+#
+# def about(request):
+#     return render(request, 'about.html', {})   #create about view
+#
 
 # def projects(request):
 #     return render(request, 'home/projects.html', {})    #create projects view

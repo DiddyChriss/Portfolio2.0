@@ -17,12 +17,12 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path
-from home.views import home , about #, projects, skils, contact, tictactoe
+from home.views import home #, about , projects, skils, contact, tictactoe
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home, name='home'),
-    path('about/', about, name='about'),
+    # path('about/', about, name='about'),
     # path('projects/', projects, name='projects'),
     # path('skils/', skils, name='skils'),
     # path('contact/', contact, name='contact'),
