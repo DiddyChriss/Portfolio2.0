@@ -1,0 +1,243 @@
+{% extends 'base.html'%}
+{% load static %}
+
+{% block content %}
+<body>
+<!-- start About lightbox-->
+  <div class="lightbox-wrapper" id="about" data-simplebar>
+    <div class="container">
+      <div class="lightbox-close">
+        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="lightbox-content">
+            <div class="row">
+              <div class="col-12">
+                <div class="section-heading page-heading">
+                  <p class="section-description">Get to know me</p>
+                  <h2 class="section-title">About Me</h2>
+                  <div class="animated-bar"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Info section-->
+            <div class="info-section single-section">
+              <div class="row align-items-center">
+                <!-- Picture part-->
+                <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail" src="{% static 'img/info-img.jpg' %}" alt="About Picture"></div>
+                <!-- Content part-->
+                <div class="col-12 col-lg-7 info-content">
+                  <div class="content-block">
+                    <h2 class="content-subtitle">Who am i?</h2>
+                    <h6 class="content-title">I'm Emma Smith, a visual UX/UI Designer and Web Developer</h6>
+                    <div class="content-description">
+                      <p>I am a freelancer based in the United Kingdom and i have been building noteworthy UX/UI designs and websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
+                    </div>
+                    <address class="content-info">
+                      <div class="row">
+                        <div class="col-12 col-md-6 single-info"><span>Name:</span>
+                          <p>Emma Smith</p>
+                        </div>
+                        <div class="col-12 col-md-6 single-info"><span>Email:</span>
+                          <p><a href="mailto:emma@example.com">emma@example.com</a></p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-md-6 single-info"><span>Age:</span>
+                          <p>21</p>
+                        </div>
+                        <div class="col-12 col-md-6 single-info"><span>From:</span>
+                          <p>Liverpool, UK</p>
+                        </div>
+                      </div>
+                    </address>
+                    <div class="d-block d-sm-flex align-items-center"><a class="btn content-download button-main button-scheme" href="#0" role="button">Download CV</a>
+                      <ul class="list-unstyled list-inline content-follow">
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-github"></i></a></li>
+                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-facebook"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Services section-->
+            <div class="services-section single-section">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <p class="section-description">Services i offer to my clients</p>
+                    <h2 class="section-title">My Services</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-logo-css3"></i>
+                    <h6 class="service-title">Design Trends</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-md-images"></i>
+                    <h6 class="service-title">PSD Design</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service"><i class="icon service-icon ion-logo-ionic"></i>
+                    <h6 class="service-title">Customer Support</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service mb-lg-0"><i class="icon service-icon ion-logo-wordpress"></i>
+                    <h6 class="service-title">Web Development</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service mb-md-0"><i class="icon service-icon ion-md-move"></i>
+                    <h6 class="service-title">Fully Responsive</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+                <!-- Single service-->
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="single-service mb-0"><i class="icon service-icon ion-ios-rocket"></i>
+                    <h6 class="service-title">Branding</h6>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Testimonials section-->
+            <div class="testimonials-section single-section">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <p class="section-description">What my clients think about me</p>
+                    <h2 class="section-title">Testimonials</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="my-slider">
+                <div class="slider-item">
+                  <!-- Single review-->
+                  <div class="single-review swiper-slide">
+                    <div class="review-header d-flex justify-content-between">
+                      <div class="review-client">
+                        <div class="media"><img class="img-fluid rounded-circle client-avatar" src="{% static 'img/client-1.jpg' %}" alt="Client">
+                          <div class="client-details">
+                            <h6 class="client-name">Julia Sakura</h6><span class="client-role">Envato Customer</span>
+                          </div>
+                        </div>
+                      </div><i class="icon ion-md-quote review-icon"></i>
+                    </div>
+                    <p class="review-content">Emma did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose. She worked with us the entire way. Highly recommended.</p>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <!-- Single review-->
+                  <div class="single-review swiper-slide">
+                    <div class="review-header d-flex justify-content-between">
+                      <div class="review-client">
+                        <div class="media"><img class="img-fluid rounded-circle client-avatar" src="{% static 'img/client-2.jpg' %}" alt="Client">
+                          <div class="client-details">
+                            <h6 class="client-name">John Santana</h6><span class="client-role">Entrepreneur</span>
+                          </div>
+                        </div>
+                      </div><i class="icon ion-md-quote review-icon"></i>
+                    </div>
+                    <p class="review-content">Emma did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose. She worked with us the entire way. Highly recommended.</p>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <!-- Single review-->
+                  <div class="single-review swiper-slide">
+                    <div class="review-header d-flex justify-content-between">
+                      <div class="review-client">
+                        <div class="media"><img class="img-fluid rounded-circle client-avatar" src="{% static 'img/client-3.jpg' %}" alt="Client">
+                          <div class="client-details">
+                            <h6 class="client-name">Maria Wilson</h6><span class="client-role">Envato Customer</span>
+                          </div>
+                        </div>
+                      </div><i class="icon ion-md-quote review-icon"></i>
+                    </div>
+                    <p class="review-content">Emma did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose. She worked with us the entire way. Highly recommended.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Pricing section-->
+            <div class="pricing-section single-section">
+              <div class="row">
+                <div class="col-12">
+                  <div class="section-heading">
+                    <p class="section-description">Get started with my services</p>
+                    <h2 class="section-title">Choose a Plan</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <!-- Single plan-->
+                <div class="col-lg-4">
+                  <div class="single-plan mb-4 mb-sm-5 mb-lg-0"><i class="plan-icon icon ion-md-egg"></i>
+                    <h3 class="plan-type">Standard</h3>
+                    <h2 class="plan-price">$19/month</h2>
+                    <ul class="list-unstyled plan-list">
+                      <li>Mobile App Design</li>
+                      <li>Responsive Design</li>
+                      <li>Database Development</li>
+                      <li>Web Design</li>
+                      <li>24/7 Support</li>
+                    </ul><a class="btn button-main button-scheme plan-btn" href="#0" role="button">Get Standard</a>
+                  </div>
+                </div>
+                <!-- Single plan-->
+                <div class="col-lg-4">
+                  <div class="single-plan mb-4 mb-sm-5 mb-lg-0"><i class="plan-icon icon ion-ios-rocket"></i>
+                    <h3 class="plan-type">Professional</h3>
+                    <h2 class="plan-price">$29/month</h2>
+                    <ul class="list-unstyled plan-list">
+                      <li>Mobile App Design</li>
+                      <li>Responsive Design</li>
+                      <li>Database Development</li>
+                      <li>Web Design</li>
+                      <li>24/7 Support</li>
+                    </ul><a class="btn button-main button-scheme plan-btn" href="#0" role="button">Get Pro</a>
+                  </div>
+                </div>
+                <!-- Single plan-->
+                <div class="col-lg-4">
+                  <div class="single-plan mb-0"><i class="plan-icon icon ion-logo-ionic"></i>
+                    <h3 class="plan-type">Business</h3>
+                    <h2 class="plan-price">$39/month</h2>
+                    <ul class="list-unstyled plan-list">
+                      <li>Mobile App Design</li>
+                      <li>Responsive Design</li>
+                      <li>Database Development</li>
+                      <li>Web Design</li>
+                      <li>24/7 Support</li>
+                    </ul><a class="btn button-main button-scheme plan-btn" href="#0" role="button">Get Business</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end About --->
+</body>
+{% endblock %}

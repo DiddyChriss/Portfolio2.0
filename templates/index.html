@@ -1,0 +1,64 @@
+{% extends 'base.html'%}
+{% load static %}
+
+{% block content%}
+<body class="theme-dark">
+  <!-- Preloader-->  <!-- Home site start -->
+  <div class="preloader">
+    <div class="preloader-block">
+      <div class="preloader-icon"><span class="loading-dot loading-dot-1"></span>
+        <span class="loading-dot loading-dot-2"></span><span class="loading-dot loading-dot-3"></span></div>
+    </div>
+  </div>
+  <div id="overlay-effect"></div>
+  <!-- Navbar-->
+  <nav class="navbar-expand-md navbar fixed-top" id="navbar"><a class="navbar-brand" data-scroll="" href="/">
+      <!-- Navbar Logo-->
+      <img class="img-fluid" src="{% static 'img/logoDW.png' %}" alt="Logo"></a>
+    <span class="navbar-menu ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button">
+      <span class="btn-line"></span></span>
+    <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
+      <!-- Navbar menu-->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="/projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="/skils">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Home-->
+  <section class="home-area element-cover-bg" id="home" style="background-image:url({% static 'img/home.jpg' %})">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center">
+        <div class="col-12 col-lg-8 home-content text-center">
+          <h1 class="home-name">Krzysztof <span>Żak (DiddyChriss)</span></h1>
+          <h4 class="cd-headline clip home-headline">I’m a <span class="cd-words-wrapper single-headline">
+            <b class="is-visible">Python Developer</b><b>Full-Stack</b><b>Web Developer</b></span></h4>
+        </div>
+      </div>
+    </div>
+    <div class="fixed-wrapper">
+      <!-- Languages list-->
+      <div class="fixed-block block-left">
+        <ul class="list-unstyled languages-list">
+          <li><a href="#0"><span class="single-language"></span></a></li>
+          <li><a href="#0"><span class="single-language"></span></a></li> <!-- language website -->
+        </ul>
+      </div>
+      <!-- Social media icons-->
+      <div class="fixed-block block-right">
+        <ul class="list-unstyled social-icons">
+          <li><a href="https://www.linkedin.com/in/krzysztof-%C5%BCak-4a019512a?trk=people-guest_people_search-card">
+            <i class="icon ion-logo-linkedin"></i></a></li>
+          <li><a href="https://github.com/DiddyChriss"><i class="icon ion-logo-github"></i></a></li>
+          <li><a href="https://www.facebook.com/ridelectricKRK/"><i class="icon ion-logo-facebook"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Home Site End -->
+</body>
+{% endblock %}
