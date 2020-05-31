@@ -8,7 +8,6 @@
  */
 
 /*----------- CUSTOM JS SCRIPTS -----------*/
-
 (function($) {
   'use strict';
   $(function() {
@@ -18,3 +17,5 @@
     // Code here executes When the page is loaded
   });
 }(jQuery));
+
+

@@ -23,9 +23,9 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#blog">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="#resume">Skills</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="/projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -34,7 +34,7 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center">
         <div class="col-12 col-lg-8 home-content text-center">
-          <h1 class="home-name">Krzysztof <span>Żak (DiddyChriss)</span></h1>
+          <h1 class="home-name">Krzysztof <span>Żak <h1>DiddyChriss</h1></span></h1>
           <h4 class="cd-headline clip home-headline">I’m a <span class="cd-words-wrapper single-headline">
             <b class="is-visible">Python Developer</b><b>Full-Stack</b><b>Web Developer</b></span></h4>
         </div>
@@ -60,7 +60,6 @@
     </div>
   </section>
   <!-- Home Site End -->
-
 <!-- start About lightbox-->
   <div class="lightbox-wrapper" id="about" data-simplebar>
     <div class="container">
@@ -83,40 +82,56 @@
             <div class="info-section single-section">
               <div class="row align-items-center">
                 <!-- Picture part-->
-                <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail" src="{% static 'img/info-img.jpg' %}" alt="About Picture"></div>
+                <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail"
+                                                           src="{% static 'img/about/port1.png' %}" alt="About Picture">
+                </div>
                 <!-- Content part-->
                 <div class="col-12 col-lg-7 info-content">
                   <div class="content-block">
                     <h2 class="content-subtitle">Who am i?</h2>
-                    <h6 class="content-title">I'm Emma Smith, a visual UX/UI Designer and Web Developer</h6>
+                    <h6 class="content-title">My name is Krzysztof Żak, also know as DiddyChriss</h6>
+                     <h6>Python Developer (Full-Stack Web Developer)</h6>
                     <div class="content-description">
-                      <p>I am a freelancer based in the United Kingdom and i have been building noteworthy UX/UI designs and websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
+                      <p>I’m a motivated entrepreneur and dedicated worker with a passion for development. Check the
+                        'About' tab to learn a bit more about me, and see the 'Projects' tab to find out what I’m up
+                        to currently! My skill set is always "work in progress", but have a look at the 'Skills' page
+                        and - who knows - I may be the employee or working partner that you’re looking for. The
+                        'Contact' page will tell you how to get in touch if you have questions or want to collaborate.
+                        I'm looking forward to hearing from you!</p>
                     </div>
                     <address class="content-info">
                       <div class="row">
                         <div class="col-12 col-md-6 single-info"><span>Name:</span>
-                          <p>Emma Smith</p>
+                          <p>Krzysztof Żak</p>
                         </div>
                         <div class="col-12 col-md-6 single-info"><span>Email:</span>
-                          <p><a href="mailto:emma@example.com">emma@example.com</a></p>
+                          <p><a href="diddychriss@gmail.com">diddychriss@gmail.com</a></p>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-12 col-md-6 single-info"><span>Age:</span>
-                          <p>21</p>
+                          <p>33</p>
                         </div>
                         <div class="col-12 col-md-6 single-info"><span>From:</span>
-                          <p>Liverpool, UK</p>
+                          <p>Kraków, PL</p>
                         </div>
                       </div>
                     </address>
-                    <div class="d-block d-sm-flex align-items-center"><a class="btn content-download button-main button-scheme" href="#0" role="button">Download CV</a>
+                    <div class="d-block d-sm-flex align-items-center">
+                      <a class="btn content-download button-main button-scheme"
+                         href="/contact/" role="button">Contact Me</a>
                       <ul class="list-unstyled list-inline content-follow">
-                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-linkedin"></i></a></li>
-                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-github"></i></a></li>
-                        <li class="list-inline-item"><a href="#0"><i class="icon ion-logo-facebook"></i></a></li>
+                        <li class="list-inline-item">
+                          <a href="https://www.linkedin.com/in/krzysztof-%C5%BCak-4a019512a?trk=people-guest_people_search-card">
+                            <i class="icon ion-logo-linkedin"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://github.com/DiddyChriss">
+                          <i class="icon ion-logo-github"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://www.facebook.com/ridelectricKRK/">
+                          <i class="icon ion-logo-facebook"></i></a>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -128,52 +143,45 @@
               <div class="row">
                 <div class="col-12">
                   <div class="section-heading">
-                    <p class="section-description">Services i offer to my clients</p>
-                    <h2 class="section-title">My Services</h2>
+                    <p class="section-description"></p>
+                    <h2 class="section-title">Achievements and Aspirations</h2>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <!-- Single service-->
-                <div class="col-12 col-md-6 col-lg-4">
-                  <div class="single-service"><i class="icon service-icon ion-logo-css3"></i>
-                    <h6 class="service-title">Design Trends</h6>
-                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="col-12 col-md-6 col-lg-6">
+                  <div class="single-service" >
+                    <img style="padding: 0px 0px 40px 0px;" src="{% static 'img/about/p1.png' %}">
+                    <h6 class="service-title">Python Developer</h6>
+                    <p class="service-description">Coding is my first passion and I’m looking for job opportunities in
+                      a Full Stack Web Developer position. My strongest ability - and the one I prefer most - is
+                      Back-End development, while my Front-End skills are a good addition to my overall Web Dev
+                      abilities, in which I operate freely.</p>
+                    <p>I’m confident that I can handle every coding job position within the Web Dev area, and with
+                      pleasure. I systematically work on improving my skills, not only in areas needed for versatile
+                      work, but most importantly in Python Coding (class, libraries, etc.).</p>
                   </div>
                 </div>
                 <!-- Single service-->
-                <div class="col-12 col-md-6 col-lg-4">
-                  <div class="single-service"><i class="icon service-icon ion-md-images"></i>
-                    <h6 class="service-title">PSD Design</h6>
-                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-                <!-- Single service-->
-                <div class="col-12 col-md-6 col-lg-4">
-                  <div class="single-service"><i class="icon service-icon ion-logo-ionic"></i>
-                    <h6 class="service-title">Customer Support</h6>
-                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-                <!-- Single service-->
-                <div class="col-12 col-md-6 col-lg-4">
-                  <div class="single-service mb-lg-0"><i class="icon service-icon ion-logo-wordpress"></i>
-                    <h6 class="service-title">Web Development</h6>
-                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-                <!-- Single service-->
-                <div class="col-12 col-md-6 col-lg-4">
-                  <div class="single-service mb-md-0"><i class="icon service-icon ion-md-move"></i>
-                    <h6 class="service-title">Fully Responsive</h6>
-                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  </div>
-                </div>
-                <!-- Single service-->
-                <div class="col-12 col-md-6 col-lg-4">
-                  <div class="single-service mb-0"><i class="icon service-icon ion-ios-rocket"></i>
-                    <h6 class="service-title">Branding</h6>
-                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="col-12 col-md-6 col-lg-6">
+                  <div class="single-service" >
+                    <a  href="https://www.ridelectric.pl/">
+                      <img style="padding: 0px 0px 40px 0px;" src="{% static 'img/about/l1.png' %}" >
+                  </a>
+                    <h6 class="service-title">ridelectric.pl</h6>
+                    <p class="service-description">I am also an entrepreneur and the owner of the ridelectric.pl brand.
+                      My hobby is Electromobility (EV) and Renewable Energy Sources (RES). My first commercial project
+                      is the website ridelectric.pl with a web store for EV and Pv products, all built in Python-Django.
+                    </p>
+                    <p>I also manage a fun page for ridelectric.pl on Facebook (link bellow), by providing news about
+                      local infrastructure, specific charging points and global news on the EV and Photovoltaic (PV)
+                      subjects.
+                    </p>
+                    <p>My interest and involvement in the EV and RES enviroment go hand in hand with my current passion
+                      for coding and I’m hoping to get involved in a project that will become a denominator of those two
+                      interest points, and will allow me to utilize my knowledge and programming skills, as well as to
+                      further contribute to the development of Electromobility and Renewable Energy Sources.</p>
                   </div>
                 </div>
               </div>
@@ -183,25 +191,25 @@
               <div class="row">
                 <div class="col-12">
                   <div class="section-heading">
-                    <p class="section-description">What my clients think about me</p>
-                    <h2 class="section-title">Testimonials</h2>
+                    <p class="section-description">Checkout My Fam</p>
+                    <h2 class="section-title">DiddyChriss</h2>
                   </div>
                 </div>
               </div>
               <div class="my-slider">
                 <div class="slider-item">
                   <!-- Single review-->
+                <div class="slider-item">
+                  <!-- Single review-->
                   <div class="single-review swiper-slide">
                     <div class="review-header d-flex justify-content-between">
                       <div class="review-client">
-                        <div class="media"><img class="img-fluid rounded-circle client-avatar" src="{% static 'img/client-1.jpg' %}" alt="Client">
+                        <img class="img-fluid rounded-circle" src="{% static 'img/about/about2.png' %}">
                           <div class="client-details">
-                            <h6 class="client-name">Julia Sakura</h6><span class="client-role">Envato Customer</span>
+                            <h6 class="client-name">On a road..</h6>
                           </div>
-                        </div>
                       </div><i class="icon ion-md-quote review-icon"></i>
                     </div>
-                    <p class="review-content">Emma did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose. She worked with us the entire way. Highly recommended.</p>
                   </div>
                 </div>
                 <div class="slider-item">
@@ -209,85 +217,27 @@
                   <div class="single-review swiper-slide">
                     <div class="review-header d-flex justify-content-between">
                       <div class="review-client">
-                        <div class="media"><img class="img-fluid rounded-circle client-avatar" src="{% static 'img/client-2.jpg' %}" alt="Client">
+                        <img class="img-fluid rounded-circle" src="{% static 'img/about/about3.png' %}">
                           <div class="client-details">
-                            <h6 class="client-name">John Santana</h6><span class="client-role">Entrepreneur</span>
+                            <h6 class="client-name">knock knock..</h6><span class="client-role">Who's there?!</span>
                           </div>
-                        </div>
                       </div><i class="icon ion-md-quote review-icon"></i>
                     </div>
-                    <p class="review-content">Emma did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose. She worked with us the entire way. Highly recommended.</p>
                   </div>
                 </div>
-                <div class="slider-item">
+                  <div class="slider-item">
                   <!-- Single review-->
                   <div class="single-review swiper-slide">
                     <div class="review-header d-flex justify-content-between">
                       <div class="review-client">
-                        <div class="media"><img class="img-fluid rounded-circle client-avatar" src="{% static 'img/client-3.jpg' %}" alt="Client">
+                        <img class="img-fluid rounded-circle" src="{% static 'img/about/about4.png' %}">
                           <div class="client-details">
-                            <h6 class="client-name">Maria Wilson</h6><span class="client-role">Envato Customer</span>
+                            <h6 class="client-name">Tough day..</h6>
                           </div>
-                        </div>
                       </div><i class="icon ion-md-quote review-icon"></i>
                     </div>
-                    <p class="review-content">Emma did an excellent creative job, addressing our request quickly, and also providing her own graphic insight, being open to feedback and changes or edits when they arose. She worked with us the entire way. Highly recommended.</p>
                   </div>
                 </div>
-              </div>
-            </div>
-            <!-- Pricing section-->
-            <div class="pricing-section single-section">
-              <div class="row">
-                <div class="col-12">
-                  <div class="section-heading">
-                    <p class="section-description">Get started with my services</p>
-                    <h2 class="section-title">Choose a Plan</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="row align-items-center">
-                <!-- Single plan-->
-                <div class="col-lg-4">
-                  <div class="single-plan mb-4 mb-sm-5 mb-lg-0"><i class="plan-icon icon ion-md-egg"></i>
-                    <h3 class="plan-type">Standard</h3>
-                    <h2 class="plan-price">$19/month</h2>
-                    <ul class="list-unstyled plan-list">
-                      <li>Mobile App Design</li>
-                      <li>Responsive Design</li>
-                      <li>Database Development</li>
-                      <li>Web Design</li>
-                      <li>24/7 Support</li>
-                    </ul><a class="btn button-main button-scheme plan-btn" href="#0" role="button">Get Standard</a>
-                  </div>
-                </div>
-                <!-- Single plan-->
-                <div class="col-lg-4">
-                  <div class="single-plan mb-4 mb-sm-5 mb-lg-0"><i class="plan-icon icon ion-ios-rocket"></i>
-                    <h3 class="plan-type">Professional</h3>
-                    <h2 class="plan-price">$29/month</h2>
-                    <ul class="list-unstyled plan-list">
-                      <li>Mobile App Design</li>
-                      <li>Responsive Design</li>
-                      <li>Database Development</li>
-                      <li>Web Design</li>
-                      <li>24/7 Support</li>
-                    </ul><a class="btn button-main button-scheme plan-btn" href="#0" role="button">Get Pro</a>
-                  </div>
-                </div>
-                <!-- Single plan-->
-                <div class="col-lg-4">
-                  <div class="single-plan mb-0"><i class="plan-icon icon ion-logo-ionic"></i>
-                    <h3 class="plan-type">Business</h3>
-                    <h2 class="plan-price">$39/month</h2>
-                    <ul class="list-unstyled plan-list">
-                      <li>Mobile App Design</li>
-                      <li>Responsive Design</li>
-                      <li>Database Development</li>
-                      <li>Web Design</li>
-                      <li>24/7 Support</li>
-                    </ul><a class="btn button-main button-scheme plan-btn" href="#0" role="button">Get Business</a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -296,9 +246,7 @@
       </div>
     </div>
   </div>
-  <!--end About --->
-
-  <!-- Resume lightbox-->
+  <!-- skills lightbox-->
   <div class="lightbox-wrapper" id="resume" data-simplebar>
     <div class="container">
       <div class="lightbox-close">
@@ -310,50 +258,9 @@
             <div class="row">
               <div class="col-12">
                 <div class="section-heading page-heading">
-                  <p class="section-description">Check out my Resume</p>
-                  <h2 class="section-title">Resume</h2>
+                  <p class="section-description">Check out my Skills</p>
+                  <h2 class="section-title">Skills</h2>
                   <div class="animated-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!-- Resume section-->
-            <div class="resume-section single-section">
-              <div class="row">
-                <!-- Education part-->
-                <div class="col-12 col-md-6">
-                  <div class="col-block education">
-                    <h3 class="col-title">Education</h3>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Computer Science</h5><span class="item-details">Cambridge University / 2004 - 2007</span>
-                      <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo repudiandae.</p>
-                    </div>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Bachelor Degree</h5><span class="item-details">University of Tokyo / 2008 - 2010</span>
-                      <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo repudiandae.</p>
-                    </div>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Master Degree</h5><span class="item-details">Harvard University / 2012 - 2015</span>
-                      <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo repudiandae.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Experience part-->
-                <div class="col-12 col-md-6">
-                  <div class="col-block experience">
-                    <h3 class="col-title">Experience</h3>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Software Engineer</h5><span class="item-details">Adobe / 2015 - 2017</span>
-                      <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo repudiandae.</p>
-                    </div>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">Back-End Developer</h5><span class="item-details">Google / 2017 - 2018</span>
-                      <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo repudiandae.</p>
-                    </div>
-                    <div class="resume-item"><span class="item-arrow"></span>
-                      <h5 class="item-title">UI/UX Designer</h5><span class="item-details">Discord / 2019 - Present</span>
-                      <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo repudiandae.</p>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -369,229 +276,86 @@
               </div>
               <div class="row">
                 <div class="col-12 col-md-6">
-                  <div class="single-skill" data-percentage="95">
-                    <div class="skill-info"><span class="skill-name">HTML/CSS</span><span class="skill-percentage"></span></div>
+                  <div class="single-skill" data-percentage="76">
+                    <div class="skill-info row">
+                      <span class="skill-name" style="padding: 0px 0px 0px 16px;">
+                        <h5>Programming Language:</h5><h4>Python</h4></span>
+                      <span class="skill-percentage"></span></div>
                     <div class="progress skill-progress">
                       <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
-                  <div class="single-skill" data-percentage="80">
-                    <div class="skill-info"><span class="skill-name">Web Design</span><span class="skill-percentage"></span></div>
+                  <div class="single-skill" data-percentage="31">
+                    <div class="skill-info"><span class="skill-name"><h5>Database:</h5><h4>MySQL</h4></span>
+                      <span class="skill-percentage"></span></div>
                     <div class="progress skill-progress">
                       <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
-                  <div class="single-skill" data-percentage="90">
-                    <div class="skill-info"><span class="skill-name">JavaScript</span><span class="skill-percentage"></span></div>
+                  <div class="single-skill" data-percentage="15">
+                    <div class="skill-info"><span class="skill-name"><h5>Familiar with:</h5><h4>JavaScript</h4></span>
+                      <span class="skill-percentage"></span></div>
                     <div class="progress skill-progress">
                       <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
+                  </div>
+                  <div>
+                    <h5>Version Control System:</h5><h4>Git & GitHub</h4>
+                    <h5 style="padding: 30px 0px 0px 0px;">Favorite Tools:</h5>
+                    <h4 style="padding: 0px 0px 30px 0px;">PyCharm Repl.it Sublime Text</h4>
                   </div>
                 </div>
                 <div class="col-12 col-md-6">
-                  <div class="single-skill" data-percentage="90">
-                    <div class="skill-info"><span class="skill-name">React JS</span><span class="skill-percentage"></span></div>
+                  <div class="single-skill" data-percentage="61">
+                    <div class="skill-info">
+                      <span class="skill-name"><h5>Web framework:</h5><h4>Python Django</h4></span>
+                      <span class="skill-percentage"></span></div>
                     <div class="progress skill-progress">
                       <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
-                  <div class="single-skill" data-percentage="95">
-                    <div class="skill-info"><span class="skill-name">Express.js</span><span class="skill-percentage"></span></div>
+                  <div class="single-skill" data-percentage="49">
+                    <div class="skill-info">
+                      <span class="skill-name"><h5>Familiar with:</h5> <h4>HTML/CSS</h4> </span>
+                      <span class="skill-percentage"></span></div>
                     <div class="progress skill-progress">
                       <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                  <div class="single-skill" data-percentage="80">
-                    <div class="skill-info"><span class="skill-name">TypeScript</span><span class="skill-percentage"></span></div>
-                    <div class="progress skill-progress">
-                      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Video section-->
-            <div class="video-section single-section">
-              <div class="row align-items-center">
-                <div class="col-12 col-lg-6 content-part">
-                  <h3 class="video-title">Take a tour of my office</h3>
-                  <p class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia cum quasi assumenda culpa praesentium consectetur voluptatibus expedita. Voluptatem tempore, aspernatur rem facilis, distinctio nemo! Odio velit, nemo dolorem voluptas!</p>
-                  <p class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium qui aspernatur unde mollitia, in laborum.</p>
-                </div>
-                <div class="col-12 col-lg-6 video-part"><a class="media-lightbox" href="https://www.youtube.com/watch?v=doteMqP6eSc" data-lightbox>
-                    <div class="embed-responsive embed-responsive-16by9">
-                      <div class="embed-responsive-item element-cover-bg"><span class="play-wrapper"><i class="icon ion-md-play"></i></span></div>
-                    </div>
-                  </a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-
-  <!-- Blog lightbox-->
-  <div class="lightbox-wrapper" id="blog" data-simplebar>
-    <div class="container">
-      <div class="lightbox-close">
-        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="lightbox-content">
-            <div class="row">
-              <div class="col-12">
-                <div class="section-heading page-heading">
-                  <p class="section-description">Check out my latest blog posts</p>
-                  <h2 class="section-title">My Blog</h2>
-                  <div class="animated-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!-- Blog section-->
-            <div class="blog-section single-section">
-              <div class="row justify-content-center">
-                <!-- Single post-->
-                <div class="col-12 col-sm-8 col-lg-4">
-                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="{% static 'img/post-1.jpg' %}" alt="Blog post"><span class="content-date">11 Dec, 20</span></a>
-                    <div class="card-body post-content"><a href="#0">
-                        <h5 class="card-title content-title">Top tools for Photographers</h5>
-                      </a>
-                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Single post-->
-                <div class="col-12 col-sm-8 col-lg-4">
-                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="{% static 'img/post-2.jpg' %}" alt="Blog post"><span class="content-date">12 Aug, 20</span></a>
-                    <div class="card-body post-content"><a href="#0">
-                        <h5 class="card-title content-title">Take a tour of my office</h5>
-                      </a>
-                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Single post-->
-                <div class="col-12 col-sm-8 col-lg-4">
-                  <div class="card single-post"><a class="post-img" href="#0"><img class="card-img-top" src="{% static 'img/post-3.jpg' %}" alt="Blog post"><span class="content-date">4 Feb, 20</span></a>
-                    <div class="card-body post-content"><a href="#0">
-                        <h5 class="card-title content-title">How i became a Web Designer</h5>
-                      </a>
-                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
-                    </div>
-                  </div>
-                </div><!-- Single post-->
-                <div class="col-12 col-sm-8 col-lg-4">
-                  <div class="card single-post mb-lg-0"><a class="post-img" href="#0"><img class="card-img-top" src="{% static 'img/post-4.jpg' %}" alt="Blog post"><span class="content-date">11 Dec, 19</span></a>
-                    <div class="card-body post-content"><a href="#0">
-                        <h5 class="card-title content-title">How to improve work performance</h5>
-                      </a>
-                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Single post-->
-                <div class="col-12 col-sm-8 col-lg-4">
-                  <div class="card single-post mb-lg-0"><a class="post-img" href="#0"><img class="card-img-top" src="{% static 'img/post-5.jpg' %}" alt="Blog post"><span class="content-date">15 Nov, 19</span></a>
-                    <div class="card-body post-content"><a href="#0">
-                        <h5 class="card-title content-title">How to work from home</h5>
-                      </a>
-                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Single post-->
-                <div class="col-12 col-sm-8 col-lg-4">
-                  <div class="card single-post mb-0"><a class="post-img" href="#0"><img class="card-img-top" src="{% static 'img/post-6.jpg' %}" alt="Blog post"><span class="content-date">8 Aug, 19</span></a>
-                    <div class="card-body post-content"><a href="#0">
-                        <h5 class="card-title content-title">How to enjoy your business trip</h5>
-                      </a>
-                      <p class="card-text content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Contact lightbox-->
-  <div class="lightbox-wrapper" id="contact" data-simplebar>
-    <div class="container">
-      <div class="lightbox-close">
-        <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="lightbox-content">
-            <div class="row">
-              <div class="col-12">
-                <div class="section-heading page-heading">
-                  <p class="section-description">Feel free to contact me anytimes</p>
-                  <h2 class="section-title">Get in Touch</h2>
-                  <div class="animated-bar"></div>
-                </div>
-              </div>
-            </div>
-            <!-- Contact section-->
-            <div class="contact-section single-section">
+            <!-- Resume section-->
+            <div class="resume-section single-section">
               <div class="row">
-                <!-- Contact form-->
-                <div class="col-12 col-lg-7">
-                  <form class="contact-form" id="contact-form" action="{% static 'php/contact.php' %}">
-                    <h4 class="content-title">Message Me</h4>
-                    <div class="row">
-                      <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-name" type="text" name="name" placeholder="Name" required=""></div>
-                      <div class="col-12 col-md-6 form-group"><input class="form-control" id="contact-email" type="email" name="email" placeholder="Email" required=""></div>
-                      <div class="col-12 form-group"><input class="form-control" id="contact-subject" type="text" name="subject" placeholder="Subject" required=""></div>
-                      <div class="col-12 form-group form-message"><textarea class="form-control" id="contact-message" name="message" placeholder="Message" rows="5" required=""></textarea></div>
-                      <div class="col-12 form-submit"><button class="btn button-main button-scheme" id="contact-submit" type="submit">Send Message</button>
-                        <p class="contact-feedback"></p>
-                      </div>
+                <!-- Education part-->
+                <div class="col-12 col-md-6">
+                  <div class="col-block education">
+                    <h3 class="col-title">Job Skills</h3>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h6 class="item-title">Strong problem solving skills</h6>
                     </div>
-                  </form>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h6 class="item-title">Excellent communication and analytical skills</h6>
+                    </div>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h6 class="item-title">Excellent teamwork skills</h6>
+                    </div>
+                  </div>
                 </div>
-                <!-- Contact info-->
-                <div class="col-12 col-lg-5">
-                  <div class="contact-info">
-                    <h4 class="content-title">Contact Info</h4>
-                    <p class="info-description">Always available for freelance work if the right project comes along, Feel free to contact me!</p>
-                    <ul class="list-unstyled list-info">
-                      <li>
-                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-logo-ionic"></i></span>
-                          <div class="media-body info-details">
-                            <h6 class="info-type">Name</h6><span class="info-value">Emma Smith</span>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-map"></i></span>
-                          <div class="media-body info-details">
-                            <h6 class="info-type">Location</h6><span class="info-value">4155 Mann Island, Liverpool, United Kingdom.</span>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-call"></i></span>
-                          <div class="media-body info-details">
-                            <h6 class="info-type">Call Me</h6><span class="info-value"><a href="tel:+441632967704">+44 1632 967704</a></span>
-                          </div>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-send"></i></span>
-                          <div class="media-body info-details">
-                            <h6 class="info-type">Email Me</h6><span class="info-value"><a href="mailto:emma@example.com">emma@example.com</a></span>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
+                <!-- Experience part-->
+                <div class="col-12 col-md-6">
+                  <div class="col-block experience"  style="padding: 50px 0px 0px 0px;">
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h6 class="item-title">Highly organized</h6>
+                    </div>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h6 class="item-title">Quick learning skills</h6>
+                    </div>
+                    <div class="resume-item"><span class="item-arrow"></span>
+                      <h6 class="item-title">English B2</h6>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -599,7 +363,6 @@
           </div>
         </div>
       </div>
-    </div>
   </div>
 </body>
 {% endblock %}
