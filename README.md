@@ -1,4 +1,4 @@
-# Portfolio2.0
+
 # Portfolio 2.0 with new graphic design
 # Tab Home present information about work position and navigate nevbar and links to social media and GitHub Repository
 # Tab About is more precisely in description of the person, aspirations and some of experience, and contains photos of family of author
