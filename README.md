@@ -1,5 +1,4 @@
 # Portfolio 2.0
-> Portfolio 2.0 with new graphic design 
 
 ## Table of contents
 * [General info](#general-info)
@@ -9,7 +8,7 @@
 * [Contact](#contact)
 
 ## General info
-
+> Portfolio 2.0 with new graphic design 
 
 ## Technologies
 * Python - version 3.8
